@@ -1,0 +1,36 @@
+{
+  "name": "api-node-express",
+  "version": "1.0.0",
+  "description": "ToDo App API with Node and ExpressJS",
+  "keywords": [
+    "API",
+    "Node",
+    "Express",
+    "ToDO",
+    "App"
+  ],
+  "homepage": "https://github.com/Alan2372/API-Node-Express#readme",
+  "bugs": {
+    "url": "https://github.com/Alan2372/API-Node-Express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alan2372/API-Node-Express.git"
+  },
+  "license": "ISC",
+  "author": "Alan Tinoco",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
